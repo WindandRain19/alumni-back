@@ -2,7 +2,7 @@ const express = require("express");
 const showSecond = express.Router();
 const db = require("./mysql");
 const multer = require("multer");
-
+const dayjs = require("dayjs");
 // 提交校友风采
 let showName = "";
 showSecond.post("", (req, res) => {

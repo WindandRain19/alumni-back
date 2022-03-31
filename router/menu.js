@@ -7,12 +7,12 @@ Menu.get("", (req, res) => {
       data: [
         {
           id: 101,
-          authName: "校友论坛管理",
+          authName: "校友留言板",
           path: null,
           children: [
             {
               id: 1011,
-              authName: "论坛",
+              authName: "留言板",
               path: "Home/forumFirst",
               children: [],
             },
@@ -20,7 +20,7 @@ Menu.get("", (req, res) => {
         },
         {
           id: 102,
-          authName: "校友用户管理",
+          authName: "校友用户",
           path: null,
           children: [
             {
@@ -33,7 +33,7 @@ Menu.get("", (req, res) => {
         },
         {
           id: 103,
-          authName: "校友申请管理",
+          authName: "校友申请",
           path: null,
           children: [
             {
@@ -46,12 +46,12 @@ Menu.get("", (req, res) => {
         },
         {
           id: 104,
-          authName: "学校动态管理",
+          authName: "学校动态",
           path: null,
           children: [
             {
               id: 1041,
-              authName: "学校动态显示",
+              authName: "学校动态",
               path: "Home/stateFirst",
               children: [],
             },
@@ -59,7 +59,7 @@ Menu.get("", (req, res) => {
         },
         {
           id: 105,
-          authName: "校友风采管理",
+          authName: "校友风采",
           path: null,
           children: [
             {
@@ -79,18 +79,18 @@ Menu.get("", (req, res) => {
       data: [
         {
           id: 101,
-          authName: "校友论坛管理",
+          authName: "校友留言板管理",
           path: null,
           children: [
-            {
-              id: 1011,
-              authName: "论坛",
-              path: "Home/forumFirst",
-              children: [],
-            },
+            // {
+            //   id: 1011,
+            //   authName: "论坛",
+            //   path: "Home/forumFirst",
+            //   children: [],
+            // },
             {
               id: 1012,
-              authName: "论坛管理",
+              authName: "留言板管理",
               path: "Home/forumSecond",
               children: [],
             },
@@ -107,12 +107,12 @@ Menu.get("", (req, res) => {
               path: "Home/userFirst",
               children: [],
             },
-            {
-              id: 1022,
-              authName: "个人中心",
-              path: "Home/userSecond",
-              children: [],
-            },
+            // {
+            //   id: 1022,
+            //   authName: "个人中心",
+            //   path: "Home/userSecond",
+            //   children: [],
+            // },
           ],
         },
         {
@@ -120,12 +120,12 @@ Menu.get("", (req, res) => {
           authName: "校友申请管理",
           path: null,
           children: [
-            {
-              id: 1031,
-              authName: "校友申请",
-              path: "Home/requestFirst",
-              children: [],
-            },
+            // {
+            //   id: 1031,
+            //   authName: "校友申请",
+            //   path: "Home/requestFirst",
+            //   children: [],
+            // },
             {
               id: 1032,
               authName: "申请列表",
@@ -139,12 +139,12 @@ Menu.get("", (req, res) => {
           authName: "学校动态管理",
           path: null,
           children: [
-            {
-              id: 1041,
-              authName: "学校动态显示",
-              path: "Home/stateFirst",
-              children: [],
-            },
+            // {
+            //   id: 1041,
+            //   authName: "学校动态显示",
+            //   path: "Home/stateFirst",
+            //   children: [],
+            // },
             {
               id: 1042,
               authName: "学校动态上传",
@@ -158,12 +158,12 @@ Menu.get("", (req, res) => {
           authName: "校友风采管理",
           path: null,
           children: [
-            {
-              id: 1051,
-              authName: "校友风采",
-              path: "Home/showFirst",
-              children: [],
-            },
+            // {
+            //   id: 1051,
+            //   authName: "校友风采",
+            //   path: "Home/showFirst",
+            //   children: [],
+            // },
             {
               id: 1052,
               authName: "校友风采管理",

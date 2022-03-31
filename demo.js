@@ -64,7 +64,7 @@ app.use("/Home/stateSecond", StateSecond);
 //校友风采
 app.use("/Home/showFirst", ShowFirst);
 //校友风采管理
-app.use("/Home/showFirst", showSecond);
+app.use("/Home/showSecond", showSecond);
 
 // 论坛管理
 app.use("/Home/ForumSecond", ForumSecond);
